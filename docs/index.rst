@@ -1,9 +1,5 @@
-========================
-``gs.group.groups.json``
-========================
----------------------------------
-The list of groups in JSON format
----------------------------------
+:mod:`gs.group.groups.json`
+===========================
 
 :Author: `Michael JasonSmith`_
 :Contact: Michael JasonSmith <mpj17@onlinegroups.net>
@@ -17,7 +13,22 @@ The list of groups in JSON format
     http://creativecommons.org/licenses/by-sa/4.0/
 
 This product provides a *web hook* to retrieve the list of groups
-on a GroupServer_ site. The hook should be used with care.
+on a GroupServer_ site.
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   hook
+   HISTORY
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
 Resources
 =========
@@ -36,5 +47,3 @@ Resources
 .. _GroupServer.org: http://groupserver.org/
 .. _OnlineGroups.Net: https://onlinegroups.net
 .. _Michael JasonSmith: http://groupserver.org/p/mpj17
-
-..  LocalWords:  json webhook
