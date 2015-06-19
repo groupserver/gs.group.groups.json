@@ -10,7 +10,7 @@
   by `OnlineGroups.net`_.
 
 ..  _Creative Commons Attribution-Share Alike 4.0 International License:
-    http://creativecommons.org/licenses/by-sa/4.0/
+    https://creativecommons.org/licenses/by-sa/4.0/
 
 This product provides a *web hook* to retrieve the list of groups
 on a GroupServer_ site.
@@ -34,7 +34,7 @@ Resources
 =========
 
 - Documentation:
-  http://groupserver/readthedocs.org/projects/gsgroupgroupsjson/en/latest
+  http://groupserver.readthedocs.org/projects/gsgroupgroupsjson/en/latest
 - Code repository:
   https://github.com/groupserver/gs.group.groups.json
 - Questions and comments to
