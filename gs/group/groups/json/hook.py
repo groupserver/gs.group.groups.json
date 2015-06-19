@@ -13,6 +13,7 @@
 #
 ############################################################################
 from __future__ import absolute_import, print_function, unicode_literals
+from collections import OrderedDict
 from json import dumps as to_json
 from logging import getLogger
 log = getLogger('gs.group.groups.json.hook')
@@ -61,13 +62,13 @@ class GroupsHook(SiteEndpoint):
         except AttributeError as ae:
             raise NoList(ae)
 
-        retval = {
-            'id': groupInfo.id,
-            'name': groupInfo.name,
-            'url': groupInfo.url,
-            'email': l.get_property('mailto'),
-            'type': groupUnset.name,
-            'privacy': groupVisiblity.visibility, }
+        retval = OrderedDict((
+            ('id', groupInfo.id),
+            ('name', groupInfo.name),
+            ('url', groupInfo.url),
+            ('email', l.get_property('mailto')),
+            ('type', groupUnset.name),
+            ('privacy', groupVisiblity.visibility), ))
         return retval
 
     @Lazy
