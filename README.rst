@@ -23,7 +23,7 @@ Resources
 =========
 
 - Documentation:
-  http://groupserver.readthedocs.org/projects/gsgroupgroupsjson/en/latest
+  http://groupserver.readthedocs.io/projects/gsgroupgroupsjson/en/latest
 - Code repository:
   https://github.com/groupserver/gs.group.groups.json
 - Questions and comments to
