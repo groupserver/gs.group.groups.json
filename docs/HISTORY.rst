@@ -7,7 +7,7 @@ Changelog
 * Adding Sphinx_ documentation
 
 .. _Sphinx:
-   http://groupserver.readthedocs.org/projects/gsgroupgroupsjson/en/latest
+   http://groupserver.readthedocs.io/projects/gsgroupgroupsjson/en/latest
 
 1.0.0 (2015-06-12)
 ------------------
